@@ -1,0 +1,21 @@
+{
+  "private": true,
+  "author": "daibo <dyboo313@163.com>",
+  "scripts": {
+    "copy": "ncp ./node_modules/@arcgis/core/assets ./public/assets",
+    "dev": "umi dev",
+    "build": "npm run copy && umi build",
+    "postinstall": "umi setup",
+    "setup": "umi setup",
+    "start": "npm run copy && npm run dev"
+  },
+  "dependencies": {
+    "umi": "^4.0.55",
+    "@arcgis/core": "^4.26.5"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "typescript": "^4.1.2"
+  }
+}
