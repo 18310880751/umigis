@@ -10,7 +10,7 @@
     "start": "npm run copy && npm run dev"
   },
   "dependencies": {
-    "umi": "^4.0.55",
+    "umi": "^4.0.56",
     "@arcgis/core": "^4.26.5"
   },
   "devDependencies": {

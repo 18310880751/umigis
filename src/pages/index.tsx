@@ -1,9 +1,7 @@
-//import '@arcgis/core/assets/esri/themes/light/main.css';
+import '@arcgis/core/assets/esri/themes/light/main.css';
 import Map from '@arcgis/core/Map';
 import SceneView from '@arcgis/core/views/SceneView';
 import { useEffect } from 'react';
-
-
 
 const Test: React.FC = () => {
   useEffect(() => {
